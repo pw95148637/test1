@@ -1,0 +1,505 @@
+{
+ "D_rolling": {
+  "BTC|52wk": {
+   "n_points": 777,
+   "spread_mean_pct": 2.065,
+   "spread_last_pct": 1.367,
+   "cheapest_day_flips": 76,
+   "cheapest_day_flip_rate": 0.098,
+   "distinct_cheapest_days": 7
+  },
+  "ETH|52wk": {
+   "n_points": 513,
+   "spread_mean_pct": 2.272,
+   "spread_last_pct": 1.856,
+   "cheapest_day_flips": 72,
+   "cheapest_day_flip_rate": 0.141,
+   "distinct_cheapest_days": 7
+  }
+ },
+ "E_regime": {
+  "BTC": {
+   "bull": {
+    "n_weeks": 544,
+    "spread_pct": 2.302,
+    "anova_p": 0.0,
+    "kw_p": 0.0,
+    "perm_p": 0.0,
+    "cheapest": "Mon",
+    "priciest": "Sun"
+   },
+   "bear": {
+    "n_weeks": 337,
+    "spread_pct": 0.678,
+    "anova_p": 0.1935,
+    "kw_p": 0.3813,
+    "perm_p": 0.529,
+    "cheapest": "Sun",
+    "priciest": "Tue"
+   },
+   "lowvol": {
+    "n_weeks": 327,
+    "spread_pct": 1.098,
+    "anova_p": 0.0,
+    "kw_p": 0.0,
+    "perm_p": 0.0,
+    "cheapest": "Mon",
+    "priciest": "Sun"
+   },
+   "midvol": {
+    "n_weeks": 363,
+    "spread_pct": 0.364,
+    "anova_p": 0.8617,
+    "kw_p": 0.9326,
+    "perm_p": 0.886,
+    "cheapest": "Mon",
+    "priciest": "Sat"
+   },
+   "highvol": {
+    "n_weeks": 310,
+    "spread_pct": 2.963,
+    "anova_p": 0.0,
+    "kw_p": 0.0,
+    "perm_p": 0.0,
+    "cheapest": "Mon",
+    "priciest": "Sun"
+   }
+  },
+  "ETH": {
+   "bull": {
+    "n_weeks": 344,
+    "spread_pct": 2.755,
+    "anova_p": 0.0,
+    "kw_p": 0.0,
+    "perm_p": 0.0,
+    "cheapest": "Mon",
+    "priciest": "Sun"
+   },
+   "bear": {
+    "n_weeks": 262,
+    "spread_pct": 0.988,
+    "anova_p": 0.2992,
+    "kw_p": 0.0466,
+    "perm_p": 0.423,
+    "cheapest": "Sun",
+    "priciest": "Mon"
+   },
+   "lowvol": {
+    "n_weeks": 225,
+    "spread_pct": 0.748,
+    "anova_p": 0.2544,
+    "kw_p": 0.1165,
+    "perm_p": 0.358,
+    "cheapest": "Mon",
+    "priciest": "Sun"
+   },
+   "midvol": {
+    "n_weeks": 250,
+    "spread_pct": 0.835,
+    "anova_p": 0.3437,
+    "kw_p": 0.1338,
+    "perm_p": 0.5385,
+    "cheapest": "Thu",
+    "priciest": "Sun"
+   },
+   "highvol": {
+    "n_weeks": 218,
+    "spread_pct": 1.966,
+    "anova_p": 0.0232,
+    "kw_p": 0.0172,
+    "perm_p": 0.136,
+    "cheapest": "Mon",
+    "priciest": "Sun"
+   }
+  }
+ },
+ "F_placebo": {
+  "BTC|full": {
+   "sigma_annual": 0.896,
+   "n_days": 5790,
+   "n_sims": 200,
+   "obs_spread_pct": 1.198,
+   "placebo_spread_median_pct": 0.74,
+   "placebo_spread_p95_pct": 1.347,
+   "obs_spread_percentile_in_null": 88.0,
+   "placebo_anova_p_median": 0.023,
+   "frac_placebo_anova_sig05": 0.555
+  },
+  "BTC|3yr": {
+   "sigma_annual": 0.462,
+   "n_days": 1097,
+   "n_sims": 200,
+   "obs_spread_pct": 0.444,
+   "placebo_spread_median_pct": 0.568,
+   "placebo_spread_p95_pct": 1.054,
+   "obs_spread_percentile_in_null": 30.0,
+   "placebo_anova_p_median": 0.469,
+   "frac_placebo_anova_sig05": 0.205
+  },
+  "ETH|full": {
+   "sigma_annual": 1.021,
+   "n_days": 3943,
+   "n_sims": 200,
+   "obs_spread_pct": 1.078,
+   "placebo_spread_median_pct": 1.006,
+   "placebo_spread_p95_pct": 1.696,
+   "obs_spread_percentile_in_null": 55.0,
+   "placebo_anova_p_median": 0.035,
+   "frac_placebo_anova_sig05": 0.535
+  },
+  "ETH|3yr": {
+   "sigma_annual": 0.646,
+   "n_days": 1097,
+   "n_sims": 200,
+   "obs_spread_pct": 0.501,
+   "placebo_spread_median_pct": 0.797,
+   "placebo_spread_p95_pct": 1.564,
+   "obs_spread_percentile_in_null": 14.0,
+   "placebo_anova_p_median": 0.457,
+   "frac_placebo_anova_sig05": 0.235
+  }
+ },
+ "G_walkforward": {
+  "BTC": {
+   "n_tests": 29,
+   "hits": 19,
+   "hit_rate": 0.655,
+   "detail": [
+    [
+     "2012-06-11",
+     "Mon",
+     -2.884,
+     true
+    ],
+    [
+     "2012-12-03",
+     "Mon",
+     -4.002,
+     true
+    ],
+    [
+     "2013-05-27",
+     "Mon",
+     0.171,
+     false
+    ],
+    [
+     "2013-11-18",
+     "Mon",
+     -0.096,
+     true
+    ],
+    [
+     "2014-05-12",
+     "Mon",
+     -0.629,
+     true
+    ],
+    [
+     "2014-11-03",
+     "Mon",
+     3.088,
+     false
+    ],
+    [
+     "2015-04-27",
+     "Mon",
+     -0.644,
+     true
+    ],
+    [
+     "2015-10-19",
+     "Mon",
+     -1.002,
+     true
+    ],
+    [
+     "2016-04-11",
+     "Mon",
+     -0.45,
+     true
+    ],
+    [
+     "2016-10-03",
+     "Mon",
+     -2.496,
+     true
+    ],
+    [
+     "2017-03-27",
+     "Mon",
+     -3.149,
+     true
+    ],
+    [
+     "2017-09-18",
+     "Mon",
+     -4.587,
+     true
+    ],
+    [
+     "2018-03-12",
+     "Mon",
+     0.891,
+     false
+    ],
+    [
+     "2018-09-03",
+     "Mon",
+     1.582,
+     false
+    ],
+    [
+     "2019-02-25",
+     "Mon",
+     -2.999,
+     true
+    ],
+    [
+     "2019-08-19",
+     "Mon",
+     2.376,
+     false
+    ],
+    [
+     "2020-02-10",
+     "Mon",
+     -0.483,
+     true
+    ],
+    [
+     "2020-08-03",
+     "Mon",
+     -0.131,
+     true
+    ],
+    [
+     "2021-01-25",
+     "Mon",
+     -1.325,
+     true
+    ],
+    [
+     "2021-07-19",
+     "Mon",
+     -2.234,
+     true
+    ],
+    [
+     "2022-01-10",
+     "Mon",
+     0.179,
+     false
+    ],
+    [
+     "2022-07-04",
+     "Mon",
+     0.514,
+     false
+    ],
+    [
+     "2022-12-26",
+     "Mon",
+     -1.215,
+     true
+    ],
+    [
+     "2023-06-19",
+     "Mon",
+     -0.531,
+     true
+    ],
+    [
+     "2023-12-11",
+     "Mon",
+     -1.122,
+     true
+    ],
+    [
+     "2024-06-03",
+     "Mon",
+     0.561,
+     false
+    ],
+    [
+     "2024-11-25",
+     "Mon",
+     -0.234,
+     true
+    ],
+    [
+     "2025-05-19",
+     "Mon",
+     0.064,
+     false
+    ],
+    [
+     "2025-11-10",
+     "Mon",
+     1.452,
+     false
+    ]
+   ]
+  },
+  "ETH": {
+   "n_tests": 19,
+   "hits": 10,
+   "hit_rate": 0.526,
+   "detail": [
+    [
+     "2017-07-03",
+     "Mon",
+     -0.15,
+     true
+    ],
+    [
+     "2017-12-25",
+     "Mon",
+     1.455,
+     false
+    ],
+    [
+     "2018-06-18",
+     "Mon",
+     3.736,
+     false
+    ],
+    [
+     "2018-12-10",
+     "Mon",
+     -0.724,
+     true
+    ],
+    [
+     "2019-06-03",
+     "Mon",
+     2.817,
+     false
+    ],
+    [
+     "2019-11-25",
+     "Mon",
+     -2.816,
+     true
+    ],
+    [
+     "2020-05-18",
+     "Mon",
+     -1.311,
+     true
+    ],
+    [
+     "2020-11-09",
+     "Mon",
+     -3.797,
+     true
+    ],
+    [
+     "2021-05-03",
+     "Mon",
+     1.611,
+     false
+    ],
+    [
+     "2021-10-25",
+     "Mon",
+     1.803,
+     false
+    ],
+    [
+     "2022-04-18",
+     "Mon",
+     3.188,
+     false
+    ],
+    [
+     "2022-10-10",
+     "Mon",
+     -0.12,
+     true
+    ],
+    [
+     "2023-04-03",
+     "Mon",
+     -0.887,
+     true
+    ],
+    [
+     "2023-09-25",
+     "Mon",
+     -1.078,
+     true
+    ],
+    [
+     "2024-03-18",
+     "Mon",
+     2.159,
+     false
+    ],
+    [
+     "2024-09-09",
+     "Tue",
+     -1.998,
+     true
+    ],
+    [
+     "2025-03-03",
+     "Tue",
+     -0.408,
+     true
+    ],
+    [
+     "2025-08-25",
+     "Tue",
+     0.863,
+     false
+    ],
+    [
+     "2026-02-16",
+     "Tue",
+     0.528,
+     false
+    ]
+   ]
+  }
+ },
+ "H_cost": {
+  "execution_cost_bps": {
+   "binance_taker_0.10pct": 10,
+   "binance_bnb_0.075pct": 8,
+   "coinbase_adv_taker_0.05-0.6pct": 30,
+   "typical_spread_slippage_majors": 2
+  },
+  "note": "spreads below are the EV edge of best-vs-worst day; a DCA buyer only ever captures at most (weekly_mean - best_day) ~ half the max-min spread, and only if the best day is knowable ex-ante.",
+  "full_history_BTC": {
+   "maxmin_spread_pct": 1.198,
+   "optimistic_capturable_vs_weekmean_pct": 0.599,
+   "vs_binance_taker": 0.499,
+   "net_after_taker_and_spread_pct": 0.479
+  },
+  "recent_3yr_BTC": {
+   "maxmin_spread_pct": 0.444,
+   "optimistic_capturable_vs_weekmean_pct": 0.222,
+   "vs_binance_taker": 0.122,
+   "net_after_taker_and_spread_pct": 0.102
+  },
+  "full_history_ETH": {
+   "maxmin_spread_pct": 1.078,
+   "optimistic_capturable_vs_weekmean_pct": 0.539,
+   "vs_binance_taker": 0.439,
+   "net_after_taker_and_spread_pct": 0.419
+  },
+  "recent_3yr_ETH": {
+   "maxmin_spread_pct": 0.501,
+   "optimistic_capturable_vs_weekmean_pct": 0.251,
+   "vs_binance_taker": 0.15,
+   "net_after_taker_and_spread_pct": 0.131
+  },
+  "real_intraday_BTC_2013-19": {
+   "maxmin_spread_pct": 0.797,
+   "optimistic_capturable_vs_weekmean_pct": 0.399,
+   "vs_binance_taker": 0.298,
+   "net_after_taker_and_spread_pct": 0.278
+  }
+ }
+}

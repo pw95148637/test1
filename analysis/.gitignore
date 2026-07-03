@@ -1,0 +1,3 @@
+# raw multi-GB source clones live in scratchpad, not committed
+__pycache__/
+*.pyc

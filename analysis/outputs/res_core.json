@@ -1,0 +1,1486 @@
+{
+ "C_significance": {
+  "BTC-daily|UTC|full": {
+   "n": 5790,
+   "n_weeks": 828,
+   "obs_spread_pct": 1.1983,
+   "anova_p": 0.0,
+   "kw_p": 0.0,
+   "perm_p": 0.0,
+   "cheapest": "Mon",
+   "priciest": "Sun",
+   "all_ci_cover_zero": false,
+   "day_means_pct": [
+    -0.681,
+    -0.412,
+    -0.077,
+    -0.047,
+    0.201,
+    0.498,
+    0.518
+   ],
+   "ci_lo_pct": [
+    -1.113,
+    -0.776,
+    -0.35,
+    -0.295,
+    -0.066,
+    0.095,
+    0.12
+   ],
+   "ci_hi_pct": [
+    -0.215,
+    -0.017,
+    0.242,
+    0.19,
+    0.451,
+    0.884,
+    0.895
+   ]
+  },
+  "BTC-daily|UTC|3yr": {
+   "n": 1097,
+   "n_weeks": 157,
+   "obs_spread_pct": 0.4438,
+   "anova_p": 0.753,
+   "kw_p": 0.6955,
+   "perm_p": 0.734,
+   "cheapest": "Tue",
+   "priciest": "Wed",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    -0.084,
+    -0.167,
+    0.277,
+    -0.094,
+    0.009,
+    -0.022,
+    0.08
+   ],
+   "ci_lo_pct": [
+    -0.626,
+    -0.57,
+    -0.07,
+    -0.399,
+    -0.273,
+    -0.361,
+    -0.362
+   ],
+   "ci_hi_pct": [
+    0.425,
+    0.223,
+    0.592,
+    0.188,
+    0.291,
+    0.302,
+    0.501
+   ]
+  },
+  "BTC-daily|UTC|1yr": {
+   "n": 366,
+   "n_weeks": 53,
+   "obs_spread_pct": 1.3634,
+   "anova_p": 0.0028,
+   "kw_p": 0.0196,
+   "perm_p": 0.065,
+   "cheapest": "Sat",
+   "priciest": "Wed",
+   "all_ci_cover_zero": false,
+   "day_means_pct": [
+    0.659,
+    0.414,
+    0.704,
+    -0.238,
+    -0.405,
+    -0.66,
+    -0.452
+   ],
+   "ci_lo_pct": [
+    -0.166,
+    -0.18,
+    0.237,
+    -0.841,
+    -0.834,
+    -1.195,
+    -1.097
+   ],
+   "ci_hi_pct": [
+    1.488,
+    1.029,
+    1.185,
+    0.284,
+    0.043,
+    -0.142,
+    0.163
+   ]
+  },
+  "ETH-daily|UTC|full": {
+   "n": 3943,
+   "n_weeks": 564,
+   "obs_spread_pct": 1.0776,
+   "anova_p": 0.0054,
+   "kw_p": 0.0038,
+   "perm_p": 0.038,
+   "cheapest": "Tue",
+   "priciest": "Sun",
+   "all_ci_cover_zero": false,
+   "day_means_pct": [
+    -0.414,
+    -0.455,
+    -0.105,
+    -0.112,
+    0.013,
+    0.448,
+    0.623
+   ],
+   "ci_lo_pct": [
+    -1.032,
+    -0.943,
+    -0.471,
+    -0.436,
+    -0.343,
+    0.01,
+    0.081
+   ],
+   "ci_hi_pct": [
+    0.177,
+    0.019,
+    0.271,
+    0.229,
+    0.361,
+    0.878,
+    1.19
+   ]
+  },
+  "ETH-daily|UTC|3yr": {
+   "n": 1097,
+   "n_weeks": 157,
+   "obs_spread_pct": 0.5007,
+   "anova_p": 0.8118,
+   "kw_p": 0.6633,
+   "perm_p": 0.9245,
+   "cheapest": "Thu",
+   "priciest": "Wed",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    0.232,
+    -0.174,
+    0.314,
+    -0.186,
+    -0.15,
+    -0.017,
+    -0.019
+   ],
+   "ci_lo_pct": [
+    -0.487,
+    -0.789,
+    -0.206,
+    -0.583,
+    -0.536,
+    -0.563,
+    -0.675
+   ],
+   "ci_hi_pct": [
+    0.921,
+    0.426,
+    0.784,
+    0.194,
+    0.249,
+    0.537,
+    0.606
+   ]
+  },
+  "ETH-daily|UTC|1yr": {
+   "n": 366,
+   "n_weeks": 53,
+   "obs_spread_pct": 1.8485,
+   "anova_p": 0.1024,
+   "kw_p": 0.0383,
+   "perm_p": 0.232,
+   "cheapest": "Sat",
+   "priciest": "Wed",
+   "all_ci_cover_zero": false,
+   "day_means_pct": [
+    0.507,
+    0.474,
+    1.11,
+    -0.441,
+    -0.563,
+    -0.738,
+    -0.328
+   ],
+   "ci_lo_pct": [
+    -0.759,
+    -0.557,
+    0.278,
+    -1.218,
+    -1.273,
+    -1.678,
+    -1.53
+   ],
+   "ci_hi_pct": [
+    1.877,
+    1.557,
+    1.908,
+    0.268,
+    0.183,
+    0.171,
+    0.781
+   ]
+  },
+  "BTC-intraday|UTC|full": {
+   "n": 2272,
+   "n_weeks": 328,
+   "obs_spread_pct": 0.5712,
+   "anova_p": 0.7677,
+   "kw_p": 0.105,
+   "perm_p": 0.8805,
+   "cheapest": "Mon",
+   "priciest": "Sun",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    -0.204,
+    0.06,
+    -0.144,
+    -0.204,
+    -0.061,
+    0.191,
+    0.367
+   ],
+   "ci_lo_pct": [
+    -0.877,
+    -0.596,
+    -0.609,
+    -0.592,
+    -0.475,
+    -0.402,
+    -0.23
+   ],
+   "ci_hi_pct": [
+    0.503,
+    0.741,
+    0.347,
+    0.176,
+    0.379,
+    0.73,
+    0.956
+   ]
+  },
+  "BTC-intraday|UTC|2013-2015": {
+   "n": 935,
+   "n_weeks": 135,
+   "obs_spread_pct": 0.7527,
+   "anova_p": 0.9649,
+   "kw_p": 0.8364,
+   "perm_p": 0.977,
+   "cheapest": "Sat",
+   "priciest": "Tue",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    -0.14,
+    0.553,
+    -0.015,
+    -0.171,
+    -0.106,
+    -0.199,
+    0.076
+   ],
+   "ci_lo_pct": [
+    -1.392,
+    -0.886,
+    -0.865,
+    -0.89,
+    -0.808,
+    -1.289,
+    -1.01
+   ],
+   "ci_hi_pct": [
+    1.108,
+    2.013,
+    0.834,
+    0.483,
+    0.652,
+    0.875,
+    1.22
+   ]
+  },
+  "BTC-intraday|UTC|2016-2019": {
+   "n": 1337,
+   "n_weeks": 194,
+   "obs_spread_pct": 0.8488,
+   "anova_p": 0.2765,
+   "kw_p": 0.0108,
+   "perm_p": 0.5915,
+   "cheapest": "Tue",
+   "priciest": "Sun",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    -0.247,
+    -0.285,
+    -0.232,
+    -0.225,
+    -0.033,
+    0.457,
+    0.564
+   ],
+   "ci_lo_pct": [
+    -1.026,
+    -0.881,
+    -0.735,
+    -0.686,
+    -0.508,
+    -0.19,
+    -0.131
+   ],
+   "ci_hi_pct": [
+    0.578,
+    0.364,
+    0.35,
+    0.259,
+    0.437,
+    1.062,
+    1.234
+   ]
+  },
+  "BTC-intraday|Asia/Taipei|full": {
+   "n": 2274,
+   "n_weeks": 328,
+   "obs_spread_pct": 0.5711,
+   "anova_p": 0.8801,
+   "kw_p": 0.1593,
+   "perm_p": 0.8845,
+   "cheapest": "Mon",
+   "priciest": "Wed",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    -0.327,
+    -0.001,
+    0.244,
+    -0.142,
+    -0.009,
+    0.166,
+    0.071
+   ],
+   "ci_lo_pct": [
+    -1.019,
+    -0.613,
+    -0.283,
+    -0.529,
+    -0.556,
+    -0.426,
+    -0.647
+   ],
+   "ci_hi_pct": [
+    0.446,
+    0.632,
+    0.888,
+    0.236,
+    0.43,
+    0.667,
+    0.687
+   ]
+  },
+  "BTC-intraday|Asia/Taipei|2013-2015": {
+   "n": 937,
+   "n_weeks": 135,
+   "obs_spread_pct": 1.2695,
+   "anova_p": 0.7646,
+   "kw_p": 0.4164,
+   "perm_p": 0.767,
+   "cheapest": "Sun",
+   "priciest": "Wed",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    -0.233,
+    0.224,
+    0.849,
+    -0.092,
+    -0.218,
+    -0.115,
+    -0.421
+   ],
+   "ci_lo_pct": [
+    -1.407,
+    -0.938,
+    -0.265,
+    -0.757,
+    -1.251,
+    -1.049,
+    -1.565
+   ],
+   "ci_hi_pct": [
+    0.935,
+    1.396,
+    2.125,
+    0.541,
+    0.71,
+    0.898,
+    0.782
+   ]
+  },
+  "BTC-intraday|Asia/Taipei|2016-2019": {
+   "n": 1337,
+   "n_weeks": 194,
+   "obs_spread_pct": 0.7998,
+   "anova_p": 0.5288,
+   "kw_p": 0.0355,
+   "perm_p": 0.6965,
+   "cheapest": "Mon",
+   "priciest": "Sun",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    -0.392,
+    -0.158,
+    -0.177,
+    -0.177,
+    0.139,
+    0.359,
+    0.407
+   ],
+   "ci_lo_pct": [
+    -1.174,
+    -0.809,
+    -0.657,
+    -0.637,
+    -0.354,
+    -0.256,
+    -0.368
+   ],
+   "ci_hi_pct": [
+    0.455,
+    0.522,
+    0.359,
+    0.278,
+    0.612,
+    0.951,
+    1.173
+   ]
+  }
+ },
+ "B_three_indicator": {
+  "BTC-daily|full": {
+   "ratio_means_pct": [
+    -0.681,
+    -0.412,
+    -0.077,
+    -0.047,
+    0.201,
+    0.498,
+    0.518
+   ],
+   "rank_ratio": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "rank_logret": [
+    "Wed",
+    "Mon",
+    "Tue",
+    "Fri",
+    "Sat",
+    "Thu",
+    "Sun"
+   ],
+   "rank_harmonic": [
+    "Sun",
+    "Mon",
+    "Sat",
+    "Tue",
+    "Thu",
+    "Fri",
+    "Wed"
+   ],
+   "cheapest_ratio": "Mon",
+   "cheapest_harmonic": "Sun",
+   "agree_cheapest": false
+  },
+  "BTC-daily|3yr": {
+   "ratio_means_pct": [
+    -0.084,
+    -0.167,
+    0.277,
+    -0.094,
+    0.009,
+    -0.022,
+    0.08
+   ],
+   "rank_ratio": [
+    "Tue",
+    "Thu",
+    "Mon",
+    "Sat",
+    "Fri",
+    "Sun",
+    "Wed"
+   ],
+   "rank_logret": [
+    "Mon",
+    "Wed",
+    "Fri",
+    "Sun",
+    "Sat",
+    "Tue",
+    "Thu"
+   ],
+   "rank_harmonic": [
+    "Sun",
+    "Sat",
+    "Thu",
+    "Fri",
+    "Tue",
+    "Mon",
+    "Wed"
+   ],
+   "cheapest_ratio": "Tue",
+   "cheapest_harmonic": "Sun",
+   "agree_cheapest": false
+  },
+  "ETH-daily|full": {
+   "ratio_means_pct": [
+    -0.414,
+    -0.455,
+    -0.105,
+    -0.112,
+    0.013,
+    0.448,
+    0.623
+   ],
+   "rank_ratio": [
+    "Tue",
+    "Mon",
+    "Thu",
+    "Wed",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "rank_logret": [
+    "Wed",
+    "Sat",
+    "Mon",
+    "Fri",
+    "Sun",
+    "Tue",
+    "Thu"
+   ],
+   "rank_harmonic": [
+    "Tue",
+    "Fri",
+    "Thu",
+    "Sun",
+    "Mon",
+    "Wed",
+    "Sat"
+   ],
+   "cheapest_ratio": "Tue",
+   "cheapest_harmonic": "Tue",
+   "agree_cheapest": true
+  },
+  "ETH-daily|3yr": {
+   "ratio_means_pct": [
+    0.232,
+    -0.174,
+    0.314,
+    -0.186,
+    -0.15,
+    -0.017,
+    -0.019
+   ],
+   "rank_ratio": [
+    "Thu",
+    "Tue",
+    "Fri",
+    "Sun",
+    "Sat",
+    "Mon",
+    "Wed"
+   ],
+   "rank_logret": [
+    "Wed",
+    "Mon",
+    "Sat",
+    "Fri",
+    "Sun",
+    "Tue",
+    "Thu"
+   ],
+   "rank_harmonic": [
+    "Tue",
+    "Thu",
+    "Sun",
+    "Fri",
+    "Sat",
+    "Mon",
+    "Wed"
+   ],
+   "cheapest_ratio": "Thu",
+   "cheapest_harmonic": "Tue",
+   "agree_cheapest": false
+  },
+  "BTC-intraday|UTC|full": {
+   "ratio_means_pct": [
+    -0.204,
+    0.06,
+    -0.144,
+    -0.204,
+    -0.061,
+    0.191,
+    0.367
+   ],
+   "rank_ratio": [
+    "Mon",
+    "Thu",
+    "Wed",
+    "Fri",
+    "Tue",
+    "Sat",
+    "Sun"
+   ],
+   "rank_logret": [
+    "Mon",
+    "Tue",
+    "Sat",
+    "Sun",
+    "Fri",
+    "Wed",
+    "Thu"
+   ],
+   "rank_harmonic": [
+    "Sun",
+    "Sat",
+    "Fri",
+    "Thu",
+    "Wed",
+    "Mon",
+    "Tue"
+   ],
+   "cheapest_ratio": "Mon",
+   "cheapest_harmonic": "Sun",
+   "agree_cheapest": false
+  },
+  "BTC-intraday|Asia/Taipei|full": {
+   "ratio_means_pct": [
+    -0.327,
+    -0.001,
+    0.244,
+    -0.142,
+    -0.009,
+    0.166,
+    0.071
+   ],
+   "rank_ratio": [
+    "Mon",
+    "Thu",
+    "Fri",
+    "Tue",
+    "Sun",
+    "Sat",
+    "Wed"
+   ],
+   "rank_logret": [
+    "Sun",
+    "Mon",
+    "Tue",
+    "Fri",
+    "Thu",
+    "Sat",
+    "Wed"
+   ],
+   "rank_harmonic": [
+    "Sun",
+    "Fri",
+    "Sat",
+    "Thu",
+    "Mon",
+    "Tue",
+    "Wed"
+   ],
+   "cheapest_ratio": "Mon",
+   "cheapest_harmonic": "Sun",
+   "agree_cheapest": false
+  }
+ },
+ "J_convention": {
+  "close|UTC": {
+   "n": 2272,
+   "n_weeks": 328,
+   "obs_spread_pct": 0.5712,
+   "anova_p": 0.7677,
+   "kw_p": 0.105,
+   "perm_p": 0.8805,
+   "cheapest": "Mon",
+   "priciest": "Sun",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    -0.204,
+    0.06,
+    -0.144,
+    -0.204,
+    -0.061,
+    0.191,
+    0.367
+   ],
+   "ci_lo_pct": [
+    -0.877,
+    -0.596,
+    -0.609,
+    -0.592,
+    -0.475,
+    -0.402,
+    -0.23
+   ],
+   "ci_hi_pct": [
+    0.503,
+    0.741,
+    0.347,
+    0.176,
+    0.379,
+    0.73,
+    0.956
+   ]
+  },
+  "close|Asia/Taipei": {
+   "n": 2274,
+   "n_weeks": 328,
+   "obs_spread_pct": 0.5711,
+   "anova_p": 0.8801,
+   "kw_p": 0.1593,
+   "perm_p": 0.8845,
+   "cheapest": "Mon",
+   "priciest": "Wed",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    -0.327,
+    -0.001,
+    0.244,
+    -0.142,
+    -0.009,
+    0.166,
+    0.071
+   ],
+   "ci_lo_pct": [
+    -1.019,
+    -0.613,
+    -0.283,
+    -0.529,
+    -0.556,
+    -0.426,
+    -0.647
+   ],
+   "ci_hi_pct": [
+    0.446,
+    0.632,
+    0.888,
+    0.236,
+    0.43,
+    0.667,
+    0.687
+   ]
+  },
+  "open|UTC": {
+   "n": 2272,
+   "n_weeks": 328,
+   "obs_spread_pct": 1.2489,
+   "anova_p": 0.124,
+   "kw_p": 0.0085,
+   "perm_p": 0.099,
+   "cheapest": "Mon",
+   "priciest": "Sun",
+   "all_ci_cover_zero": false,
+   "day_means_pct": [
+    -0.778,
+    -0.104,
+    0.173,
+    0.05,
+    0.008,
+    0.184,
+    0.471
+   ],
+   "ci_lo_pct": [
+    -1.454,
+    -0.611,
+    -0.354,
+    -0.386,
+    -0.43,
+    -0.378,
+    -0.26
+   ],
+   "ci_hi_pct": [
+    -0.071,
+    0.423,
+    0.706,
+    0.495,
+    0.428,
+    0.766,
+    1.136
+   ]
+  },
+  "open|Asia/Taipei": {
+   "n": 2274,
+   "n_weeks": 328,
+   "obs_spread_pct": 1.5591,
+   "anova_p": 0.0054,
+   "kw_p": 0.0004,
+   "perm_p": 0.01,
+   "cheapest": "Mon",
+   "priciest": "Sun",
+   "all_ci_cover_zero": false,
+   "day_means_pct": [
+    -1.096,
+    -0.215,
+    0.119,
+    0.402,
+    0.1,
+    0.227,
+    0.463
+   ],
+   "ci_lo_pct": [
+    -1.838,
+    -0.753,
+    -0.347,
+    -0.074,
+    -0.364,
+    -0.451,
+    -0.301
+   ],
+   "ci_hi_pct": [
+    -0.375,
+    0.393,
+    0.613,
+    0.925,
+    0.562,
+    0.809,
+    1.103
+   ]
+  },
+  "vwap|UTC": {
+   "n": 2272,
+   "n_weeks": 328,
+   "obs_spread_pct": 0.6603,
+   "anova_p": 0.5972,
+   "kw_p": 0.0226,
+   "perm_p": 0.727,
+   "cheapest": "Mon",
+   "priciest": "Sat",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    -0.326,
+    -0.016,
+    -0.022,
+    -0.133,
+    -0.153,
+    0.335,
+    0.321
+   ],
+   "ci_lo_pct": [
+    -0.991,
+    -0.634,
+    -0.471,
+    -0.436,
+    -0.618,
+    -0.228,
+    -0.315
+   ],
+   "ci_hi_pct": [
+    0.337,
+    0.592,
+    0.441,
+    0.19,
+    0.315,
+    0.856,
+    0.937
+   ]
+  },
+  "vwap|Asia/Taipei": {
+   "n": 2274,
+   "n_weeks": 328,
+   "obs_spread_pct": 0.8241,
+   "anova_p": 0.4118,
+   "kw_p": 0.0115,
+   "perm_p": 0.5255,
+   "cheapest": "Mon",
+   "priciest": "Sun",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    -0.518,
+    -0.129,
+    0.21,
+    -0.043,
+    -0.096,
+    0.273,
+    0.306
+   ],
+   "ci_lo_pct": [
+    -1.233,
+    -0.684,
+    -0.304,
+    -0.375,
+    -0.601,
+    -0.326,
+    -0.393
+   ],
+   "ci_hi_pct": [
+    0.225,
+    0.473,
+    0.799,
+    0.289,
+    0.354,
+    0.785,
+    0.922
+   ]
+  }
+ },
+ "L_granularity": {
+  "1h|UTC": {
+   "n": 2272,
+   "n_weeks": 328,
+   "obs_spread_pct": 0.5712,
+   "anova_p": 0.7677,
+   "kw_p": 0.105,
+   "perm_p": 0.8805,
+   "cheapest": "Mon",
+   "priciest": "Sun",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    -0.204,
+    0.06,
+    -0.144,
+    -0.204,
+    -0.061,
+    0.191,
+    0.367
+   ],
+   "ci_lo_pct": [
+    -0.877,
+    -0.596,
+    -0.609,
+    -0.592,
+    -0.475,
+    -0.402,
+    -0.23
+   ],
+   "ci_hi_pct": [
+    0.503,
+    0.741,
+    0.347,
+    0.176,
+    0.379,
+    0.73,
+    0.956
+   ]
+  },
+  "1h|Asia/Taipei": {
+   "n": 2274,
+   "n_weeks": 328,
+   "obs_spread_pct": 0.5711,
+   "anova_p": 0.8801,
+   "kw_p": 0.1593,
+   "perm_p": 0.8845,
+   "cheapest": "Mon",
+   "priciest": "Wed",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    -0.327,
+    -0.001,
+    0.244,
+    -0.142,
+    -0.009,
+    0.166,
+    0.071
+   ],
+   "ci_lo_pct": [
+    -1.019,
+    -0.613,
+    -0.283,
+    -0.529,
+    -0.556,
+    -0.426,
+    -0.647
+   ],
+   "ci_hi_pct": [
+    0.446,
+    0.632,
+    0.888,
+    0.236,
+    0.43,
+    0.667,
+    0.687
+   ]
+  },
+  "4h|UTC": {
+   "n": 2272,
+   "n_weeks": 328,
+   "obs_spread_pct": 0.5712,
+   "anova_p": 0.7677,
+   "kw_p": 0.105,
+   "perm_p": 0.8805,
+   "cheapest": "Mon",
+   "priciest": "Sun",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    -0.204,
+    0.06,
+    -0.144,
+    -0.204,
+    -0.061,
+    0.191,
+    0.367
+   ],
+   "ci_lo_pct": [
+    -0.877,
+    -0.596,
+    -0.609,
+    -0.592,
+    -0.475,
+    -0.402,
+    -0.23
+   ],
+   "ci_hi_pct": [
+    0.503,
+    0.741,
+    0.347,
+    0.176,
+    0.379,
+    0.73,
+    0.956
+   ]
+  },
+  "4h|Asia/Taipei": {
+   "n": 2274,
+   "n_weeks": 328,
+   "obs_spread_pct": 0.5711,
+   "anova_p": 0.8801,
+   "kw_p": 0.1593,
+   "perm_p": 0.8845,
+   "cheapest": "Mon",
+   "priciest": "Wed",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    -0.327,
+    -0.001,
+    0.244,
+    -0.142,
+    -0.009,
+    0.166,
+    0.071
+   ],
+   "ci_lo_pct": [
+    -1.019,
+    -0.613,
+    -0.283,
+    -0.529,
+    -0.556,
+    -0.426,
+    -0.647
+   ],
+   "ci_hi_pct": [
+    0.446,
+    0.632,
+    0.888,
+    0.236,
+    0.43,
+    0.667,
+    0.687
+   ]
+  },
+  "daily|UTC": {
+   "n": 2272,
+   "n_weeks": 328,
+   "obs_spread_pct": 0.5712,
+   "anova_p": 0.7677,
+   "kw_p": 0.105,
+   "perm_p": 0.8805,
+   "cheapest": "Mon",
+   "priciest": "Sun",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    -0.204,
+    0.06,
+    -0.144,
+    -0.204,
+    -0.061,
+    0.191,
+    0.367
+   ],
+   "ci_lo_pct": [
+    -0.877,
+    -0.596,
+    -0.609,
+    -0.592,
+    -0.475,
+    -0.402,
+    -0.23
+   ],
+   "ci_hi_pct": [
+    0.503,
+    0.741,
+    0.347,
+    0.176,
+    0.379,
+    0.73,
+    0.956
+   ]
+  },
+  "daily|Asia/Taipei": {
+   "n": 2272,
+   "n_weeks": 328,
+   "obs_spread_pct": 0.5712,
+   "anova_p": 0.7677,
+   "kw_p": 0.105,
+   "perm_p": 0.8805,
+   "cheapest": "Mon",
+   "priciest": "Sun",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    -0.204,
+    0.06,
+    -0.144,
+    -0.204,
+    -0.061,
+    0.191,
+    0.367
+   ],
+   "ci_lo_pct": [
+    -0.877,
+    -0.596,
+    -0.609,
+    -0.592,
+    -0.475,
+    -0.402,
+    -0.23
+   ],
+   "ci_hi_pct": [
+    0.503,
+    0.741,
+    0.347,
+    0.176,
+    0.379,
+    0.73,
+    0.956
+   ]
+  }
+ },
+ "I_sensitivity": {
+  "BTC-daily|full|iso": {
+   "n": 5790,
+   "n_weeks": 828,
+   "obs_spread_pct": 1.1983,
+   "anova_p": 0.0,
+   "kw_p": 0.0,
+   "perm_p": 0.0,
+   "cheapest": "Mon",
+   "priciest": "Sun",
+   "all_ci_cover_zero": false,
+   "day_means_pct": [
+    -0.681,
+    -0.412,
+    -0.077,
+    -0.047,
+    0.201,
+    0.498,
+    0.518
+   ],
+   "ci_lo_pct": [
+    -1.113,
+    -0.776,
+    -0.35,
+    -0.295,
+    -0.066,
+    0.095,
+    0.12
+   ],
+   "ci_hi_pct": [
+    -0.215,
+    -0.017,
+    0.242,
+    0.19,
+    0.451,
+    0.884,
+    0.895
+   ]
+  },
+  "BTC-daily|full|roll7": {
+   "n": 5790,
+   "n_weeks": 828,
+   "obs_spread_pct": 1.6413,
+   "anova_p": 0.0,
+   "kw_p": 0.0,
+   "perm_p": 0.0,
+   "cheapest": "Sun",
+   "priciest": "Sat",
+   "all_ci_cover_zero": false,
+   "day_means_pct": [
+    -0.545,
+    -0.245,
+    0.126,
+    0.197,
+    0.483,
+    0.813,
+    -0.828
+   ],
+   "ci_lo_pct": [
+    -0.907,
+    -0.543,
+    -0.126,
+    -0.075,
+    0.148,
+    0.341,
+    -1.284
+   ],
+   "ci_hi_pct": [
+    -0.209,
+    0.057,
+    0.376,
+    0.488,
+    0.842,
+    1.352,
+    -0.386
+   ]
+  },
+  "BTC-daily|3yr|iso": {
+   "n": 1097,
+   "n_weeks": 157,
+   "obs_spread_pct": 0.4438,
+   "anova_p": 0.753,
+   "kw_p": 0.6955,
+   "perm_p": 0.734,
+   "cheapest": "Tue",
+   "priciest": "Wed",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    -0.084,
+    -0.167,
+    0.277,
+    -0.094,
+    0.009,
+    -0.022,
+    0.08
+   ],
+   "ci_lo_pct": [
+    -0.626,
+    -0.57,
+    -0.07,
+    -0.399,
+    -0.273,
+    -0.361,
+    -0.362
+   ],
+   "ci_hi_pct": [
+    0.425,
+    0.223,
+    0.592,
+    0.188,
+    0.291,
+    0.302,
+    0.501
+   ]
+  },
+  "BTC-daily|3yr|roll7": {
+   "n": 1097,
+   "n_weeks": 157,
+   "obs_spread_pct": 0.6504,
+   "anova_p": 0.0688,
+   "kw_p": 0.0822,
+   "perm_p": 0.291,
+   "cheapest": "Thu",
+   "priciest": "Mon",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    0.378,
+    0.333,
+    0.113,
+    -0.273,
+    -0.187,
+    -0.226,
+    -0.133
+   ],
+   "ci_lo_pct": [
+    -0.04,
+    -0.139,
+    -0.398,
+    -0.631,
+    -0.42,
+    -0.45,
+    -0.404
+   ],
+   "ci_hi_pct": [
+    0.757,
+    0.852,
+    0.609,
+    0.108,
+    0.055,
+    0.003,
+    0.154
+   ]
+  },
+  "ETH-daily|full|iso": {
+   "n": 3943,
+   "n_weeks": 564,
+   "obs_spread_pct": 1.0776,
+   "anova_p": 0.0054,
+   "kw_p": 0.0038,
+   "perm_p": 0.038,
+   "cheapest": "Tue",
+   "priciest": "Sun",
+   "all_ci_cover_zero": false,
+   "day_means_pct": [
+    -0.414,
+    -0.455,
+    -0.105,
+    -0.112,
+    0.013,
+    0.448,
+    0.623
+   ],
+   "ci_lo_pct": [
+    -1.032,
+    -0.943,
+    -0.471,
+    -0.436,
+    -0.343,
+    0.01,
+    0.081
+   ],
+   "ci_hi_pct": [
+    0.177,
+    0.019,
+    0.271,
+    0.229,
+    0.361,
+    0.878,
+    1.19
+   ]
+  },
+  "ETH-daily|full|roll7": {
+   "n": 3943,
+   "n_weeks": 564,
+   "obs_spread_pct": 0.9227,
+   "anova_p": 0.0318,
+   "kw_p": 0.1245,
+   "perm_p": 0.179,
+   "cheapest": "Sat",
+   "priciest": "Fri",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    -0.224,
+    -0.178,
+    0.253,
+    0.355,
+    0.544,
+    -0.378,
+    -0.37
+   ],
+   "ci_lo_pct": [
+    -0.593,
+    -0.526,
+    -0.131,
+    -0.167,
+    -0.038,
+    -0.969,
+    -0.885
+   ],
+   "ci_hi_pct": [
+    0.114,
+    0.173,
+    0.63,
+    0.898,
+    1.138,
+    0.243,
+    0.12
+   ]
+  },
+  "ETH-daily|3yr|iso": {
+   "n": 1097,
+   "n_weeks": 157,
+   "obs_spread_pct": 0.5007,
+   "anova_p": 0.8118,
+   "kw_p": 0.6633,
+   "perm_p": 0.9245,
+   "cheapest": "Thu",
+   "priciest": "Wed",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    0.232,
+    -0.174,
+    0.314,
+    -0.186,
+    -0.15,
+    -0.017,
+    -0.019
+   ],
+   "ci_lo_pct": [
+    -0.487,
+    -0.789,
+    -0.206,
+    -0.583,
+    -0.536,
+    -0.563,
+    -0.675
+   ],
+   "ci_hi_pct": [
+    0.921,
+    0.426,
+    0.784,
+    0.194,
+    0.249,
+    0.537,
+    0.606
+   ]
+  },
+  "ETH-daily|3yr|roll7": {
+   "n": 1097,
+   "n_weeks": 157,
+   "obs_spread_pct": 0.5451,
+   "anova_p": 0.7248,
+   "kw_p": 0.2774,
+   "perm_p": 0.8605,
+   "cheapest": "Thu",
+   "priciest": "Wed",
+   "all_ci_cover_zero": true,
+   "day_means_pct": [
+    0.255,
+    -0.078,
+    0.36,
+    -0.185,
+    -0.18,
+    -0.077,
+    -0.093
+   ],
+   "ci_lo_pct": [
+    -0.273,
+    -0.794,
+    -0.43,
+    -0.686,
+    -0.524,
+    -0.398,
+    -0.498
+   ],
+   "ci_hi_pct": [
+    0.791,
+    0.676,
+    1.11,
+    0.301,
+    0.188,
+    0.264,
+    0.335
+   ]
+  },
+  "BTC-daily|full|perm2000": {
+   "perm_p": 0.0005
+  },
+  "BTC-daily|full|perm5000": {
+   "perm_p": 0.0002
+  },
+  "BTC-daily|3yr|perm2000": {
+   "perm_p": 0.7525
+  },
+  "BTC-daily|3yr|perm5000": {
+   "perm_p": 0.7488
+  }
+ }
+}

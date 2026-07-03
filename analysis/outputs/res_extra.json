@@ -1,0 +1,232 @@
+{
+ "K_cross_asset": {
+  "BNB|full": {
+   "n_weeks": 463,
+   "spread_pct": 1.67,
+   "anova_p": 0.0,
+   "kw_p": 0.0001,
+   "perm_p": 0.001,
+   "cheapest_ratio": "Mon",
+   "priciest_ratio": "Sun",
+   "cheapest_harmonic": "Sun"
+  },
+  "BNB|3yr": {
+   "n_weeks": 157,
+   "spread_pct": 0.569,
+   "anova_p": 0.4492,
+   "kw_p": 0.1337,
+   "perm_p": 0.6255,
+   "cheapest_ratio": "Tue",
+   "priciest_ratio": "Sat",
+   "cheapest_harmonic": "Tue"
+  },
+  "ADA|full": {
+   "n_weeks": 443,
+   "spread_pct": 1.117,
+   "anova_p": 0.1005,
+   "kw_p": 0.0549,
+   "perm_p": 0.193,
+   "cheapest_ratio": "Thu",
+   "priciest_ratio": "Sat",
+   "cheapest_harmonic": "Fri"
+  },
+  "ADA|3yr": {
+   "n_weeks": 157,
+   "spread_pct": 0.572,
+   "anova_p": 0.9551,
+   "kw_p": 0.4762,
+   "perm_p": 0.9745,
+   "cheapest_ratio": "Tue",
+   "priciest_ratio": "Mon",
+   "cheapest_harmonic": "Tue"
+  },
+  "XRP|full": {
+   "n_weeks": 615,
+   "spread_pct": 1.002,
+   "anova_p": 0.0474,
+   "kw_p": 0.2393,
+   "perm_p": 0.242,
+   "cheapest_ratio": "Tue",
+   "priciest_ratio": "Sun",
+   "cheapest_harmonic": "Wed"
+  },
+  "XRP|3yr": {
+   "n_weeks": 157,
+   "spread_pct": 0.522,
+   "anova_p": 0.9281,
+   "kw_p": 0.0226,
+   "perm_p": 0.9755,
+   "cheapest_ratio": "Thu",
+   "priciest_ratio": "Sat",
+   "cheapest_harmonic": "Thu"
+  },
+  "LTC|full": {
+   "n_weeks": 686,
+   "spread_pct": 0.598,
+   "anova_p": 0.4422,
+   "kw_p": 0.4071,
+   "perm_p": 0.628,
+   "cheapest_ratio": "Thu",
+   "priciest_ratio": "Sat",
+   "cheapest_harmonic": "Mon"
+  },
+  "LTC|3yr": {
+   "n_weeks": 157,
+   "spread_pct": 0.874,
+   "anova_p": 0.3344,
+   "kw_p": 0.0352,
+   "perm_p": 0.53,
+   "cheapest_ratio": "Thu",
+   "priciest_ratio": "Sat",
+   "cheapest_harmonic": "Tue"
+  },
+  "DOGE|full": {
+   "n_weeks": 644,
+   "spread_pct": 1.178,
+   "anova_p": 0.0077,
+   "kw_p": 0.0163,
+   "perm_p": 0.121,
+   "cheapest_ratio": "Thu",
+   "priciest_ratio": "Sun",
+   "cheapest_harmonic": "Tue"
+  },
+  "DOGE|3yr": {
+   "n_weeks": 157,
+   "spread_pct": 1.146,
+   "anova_p": 0.4022,
+   "kw_p": 0.328,
+   "perm_p": 0.483,
+   "cheapest_ratio": "Thu",
+   "priciest_ratio": "Sat",
+   "cheapest_harmonic": "Thu"
+  }
+ },
+ "M_cycles": {
+  "BTC|2017-18_bull_crash": {
+   "n_weeks": 106,
+   "spread_pct": 0.855,
+   "anova_p": 0.8518,
+   "kw_p": 0.3423,
+   "perm_p": 0.9215,
+   "cheapest": "Wed",
+   "priciest": "Sun"
+  },
+  "ETH|2017-18_bull_crash": {
+   "n_weeks": 106,
+   "spread_pct": 2.619,
+   "anova_p": 0.0627,
+   "kw_p": 0.0949,
+   "perm_p": 0.167,
+   "cheapest": "Mon",
+   "priciest": "Sun"
+  },
+  "BTC|2018-20_bear_base": {
+   "n_weeks": 66,
+   "spread_pct": 1.339,
+   "anova_p": 0.6797,
+   "kw_p": 0.5066,
+   "perm_p": 0.727,
+   "cheapest": "Thu",
+   "priciest": "Wed"
+  },
+  "ETH|2018-20_bear_base": {
+   "n_weeks": 66,
+   "spread_pct": 1.717,
+   "anova_p": 0.546,
+   "kw_p": 0.3241,
+   "perm_p": 0.6425,
+   "cheapest": "Thu",
+   "priciest": "Wed"
+  },
+  "BTC|2020-21_covid_inst_bull": {
+   "n_weeks": 88,
+   "spread_pct": 2.105,
+   "anova_p": 0.0007,
+   "kw_p": 0.0002,
+   "perm_p": 0.01,
+   "cheapest": "Tue",
+   "priciest": "Sun"
+  },
+  "ETH|2020-21_covid_inst_bull": {
+   "n_weeks": 88,
+   "spread_pct": 3.306,
+   "anova_p": 0.0,
+   "kw_p": 0.0,
+   "perm_p": 0.001,
+   "cheapest": "Tue",
+   "priciest": "Sun"
+  },
+  "BTC|2022_terra_ftx_bear": {
+   "n_weeks": 57,
+   "spread_pct": 1.932,
+   "anova_p": 0.0042,
+   "kw_p": 0.0257,
+   "perm_p": 0.0715,
+   "cheapest": "Sun",
+   "priciest": "Mon"
+  },
+  "ETH|2022_terra_ftx_bear": {
+   "n_weeks": 57,
+   "spread_pct": 2.084,
+   "anova_p": 0.0973,
+   "kw_p": 0.2453,
+   "perm_p": 0.3365,
+   "cheapest": "Sun",
+   "priciest": "Mon"
+  },
+  "BTC|2023-24_recovery": {
+   "n_weeks": 106,
+   "spread_pct": 1.161,
+   "anova_p": 0.0182,
+   "kw_p": 0.0361,
+   "perm_p": 0.046,
+   "cheapest": "Mon",
+   "priciest": "Sun"
+  },
+  "ETH|2023-24_recovery": {
+   "n_weeks": 106,
+   "spread_pct": 0.96,
+   "anova_p": 0.387,
+   "kw_p": 0.202,
+   "perm_p": 0.3555,
+   "cheapest": "Tue",
+   "priciest": "Sun"
+  },
+  "BTC|2024-25_etf_era": {
+   "n_weeks": 79,
+   "spread_pct": 0.766,
+   "anova_p": 0.5419,
+   "kw_p": 0.6152,
+   "perm_p": 0.6245,
+   "cheapest": "Tue",
+   "priciest": "Sat"
+  },
+  "ETH|2024-25_etf_era": {
+   "n_weeks": 79,
+   "spread_pct": 0.731,
+   "anova_p": 0.8948,
+   "kw_p": 0.8159,
+   "perm_p": 0.918,
+   "cheapest": "Tue",
+   "priciest": "Mon"
+  },
+  "BTC|2025-26_now": {
+   "n_weeks": 73,
+   "spread_pct": 0.946,
+   "anova_p": 0.1427,
+   "kw_p": 0.2312,
+   "perm_p": 0.274,
+   "cheapest": "Sun",
+   "priciest": "Wed"
+  },
+  "ETH|2025-26_now": {
+   "n_weeks": 73,
+   "spread_pct": 1.329,
+   "anova_p": 0.4486,
+   "kw_p": 0.0883,
+   "perm_p": 0.52,
+   "cheapest": "Sun",
+   "priciest": "Wed"
+  }
+ }
+}

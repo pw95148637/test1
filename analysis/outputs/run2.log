@@ -1,0 +1,34 @@
+=== D: rolling stability ===
+BTC|52wk {'n_points': 777, 'spread_mean_pct': 2.065, 'spread_last_pct': 1.367, 'cheapest_day_flips': 76, 'cheapest_day_flip_rate': 0.098, 'distinct_cheapest_days': 7}
+ETH|52wk {'n_points': 513, 'spread_mean_pct': 2.272, 'spread_last_pct': 1.856, 'cheapest_day_flips': 72, 'cheapest_day_flip_rate': 0.141, 'distinct_cheapest_days': 7}
+
+=== E: regime split (200d MA bull/bear + vol terciles) ===
+BTC bull    : nwk= 544 spread=2.302% A=0.0 K=0.0 P=0.0 cheap=Mon
+BTC bear    : nwk= 337 spread=0.678% A=0.1935 K=0.3813 P=0.529 cheap=Sun
+BTC lowvol  : nwk= 327 spread=1.098% A=0.0 K=0.0 P=0.0 cheap=Mon
+BTC midvol  : nwk= 363 spread=0.364% A=0.8617 K=0.9326 P=0.886 cheap=Mon
+BTC highvol : nwk= 310 spread=2.963% A=0.0 K=0.0 P=0.0 cheap=Mon
+ETH bull    : nwk= 344 spread=2.755% A=0.0 K=0.0 P=0.0 cheap=Mon
+ETH bear    : nwk= 262 spread=0.988% A=0.2992 K=0.0466 P=0.423 cheap=Sun
+ETH lowvol  : nwk= 225 spread=0.748% A=0.2544 K=0.1165 P=0.358 cheap=Mon
+ETH midvol  : nwk= 250 spread=0.835% A=0.3437 K=0.1338 P=0.5385 cheap=Thu
+ETH highvol : nwk= 218 spread=1.966% A=0.0232 K=0.0172 P=0.136 cheap=Mon
+
+=== F: placebo GBM null ===
+BTC Noneyr: sigma=0.896 obs_spread=1.198% null_median=0.74% null_p95=1.347% obs@pctile=88.0
+BTC 3yr: sigma=0.462 obs_spread=0.444% null_median=0.568% null_p95=1.054% obs@pctile=30.0
+ETH Noneyr: sigma=1.021 obs_spread=1.078% null_median=1.006% null_p95=1.696% obs@pctile=55.0
+ETH 3yr: sigma=0.646 obs_spread=0.501% null_median=0.797% null_p95=1.564% obs@pctile=14.0
+
+=== G: walk-forward out-of-sample ===
+BTC: walk-forward n_tests=29 hit_rate=0.655 (fraction of OOS periods where the in-sample cheapest day beat that period's weekly avg)
+ETH: walk-forward n_tests=19 hit_rate=0.526 (fraction of OOS periods where the in-sample cheapest day beat that period's weekly avg)
+
+=== H: cost conversion ===
+full_history_BTC: spread=1.198% capturable~0.599% net_after_costs=0.479%
+recent_3yr_BTC: spread=0.444% capturable~0.222% net_after_costs=0.102%
+full_history_ETH: spread=1.078% capturable~0.539% net_after_costs=0.419%
+recent_3yr_ETH: spread=0.501% capturable~0.251% net_after_costs=0.131%
+real_intraday_BTC_2013-19: spread=0.797% capturable~0.399% net_after_costs=0.278%
+
+SAVED res_stress.json + fig_rolling.png
