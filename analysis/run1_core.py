@@ -45,8 +45,17 @@ def suite_on(source, tz="UTC", price="close", gran="1h", week_def="iso", years=N
     d = add_week_ratio(ds, "price", "time", tz=None, week_def=week_def)
     return SIG(d, n_perm=n_perm, n_boot=n_boot, seed=seed)
 
+def _rp(v):
+    """Round preserving small p-values (3 significant figures) instead of crushing to 0.0."""
+    if not isinstance(v, float):
+        return v
+    if v == 0.0 or not np.isfinite(v):
+        return v
+    import math
+    return round(v, max(4, -int(math.floor(math.log10(abs(v)))) + 2))
+
 def fmt(r):
-    return {k: (round(v, 4) if isinstance(v, float) else v) for k, v in r.items()
+    return {k: _rp(v) for k, v in r.items()
             if k not in ("day_means_pct", "ci_lo_pct", "ci_hi_pct")} | {
         "day_means_pct": [round(x, 3) for x in r["day_means_pct"]],
         "ci_lo_pct": [round(x, 3) for x in r["ci_lo_pct"]],
